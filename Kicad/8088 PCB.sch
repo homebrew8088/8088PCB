@@ -2387,4 +2387,47 @@ Text Label 17800 6300 2    50   ~ 0
 KBD_CLK_INVERTED
 Text Label 12500 5575 2    50   ~ 0
 CH_CK_
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 6634FD55
+P 12825 1800
+F 0 "J4" H 12875 2317 50  0000 C CNN
+F 1 "CS_7" H 12875 2226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 12825 1800 50  0001 C CNN
+F 3 "~" H 12825 1800 50  0001 C CNN
+	1    12825 1800
+	1    0    0    -1  
+$EndComp
+Text Label 12625 1500 2    50   ~ 0
+D7
+Text Label 12625 1600 2    50   ~ 0
+D6
+Text Label 12625 1700 2    50   ~ 0
+D5
+Text Label 12625 1800 2    50   ~ 0
+D4
+Text Label 12625 1900 2    50   ~ 0
+D3
+Text Label 12625 2000 2    50   ~ 0
+D2
+Text Label 12625 2100 2    50   ~ 0
+D1
+Text Label 12625 2200 2    50   ~ 0
+D0
+Text Label 13125 1500 0    50   ~ 0
+IOWR
+Text Label 13125 1600 0    50   ~ 0
+IORD
+Text Label 13125 1700 0    50   ~ 0
+E0_CS
+Text Label 13125 1700 0    50   ~ 0
+E0_CS
+Text Label 13125 1800 0    50   ~ 0
+A2
+Text Label 13125 2000 0    50   ~ 0
+5+
+Text Label 13125 2100 0    50   ~ 0
+GND
+Text Label 13125 2200 0    50   ~ 0
+GND
 $EndSCHEMATC

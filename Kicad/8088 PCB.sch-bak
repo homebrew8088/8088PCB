@@ -1776,22 +1776,7 @@ Text Label 16075 1750 2    50   ~ 0
 READY
 Text Label 16075 2850 2    50   ~ 0
 RESOUT
-$Comp
-L Device:R R10
-U 1 1 662754F4
-P 14900 225
-F 0 "R10" V 14693 225 50  0000 C CNN
-F 1 "10K OHM" V 14784 225 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 14830 225 50  0001 C CNN
-F 3 "~" H 14900 225 50  0001 C CNN
-	1    14900 225 
-	0    1    1    0   
-$EndComp
-Text Label 14750 225  2    50   ~ 0
-GND
 Text Label 16075 2350 2    50   ~ 0
-DRQ0_
-Text Label 15050 225  0    50   ~ 0
 DRQ0_
 Text Label 18175 2625 2    50   ~ 0
 AEN_OE
@@ -1958,17 +1943,17 @@ NMI
 $Comp
 L Device:R_Network03 R14
 U 1 1 66373B4D
-P 9325 10425
-F 0 "R14" V 9050 10425 50  0000 C CNN
-F 1 "10K OHM" V 9125 10425 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 9255 10425 50  0001 C CNN
-F 3 "~" H 9325 10425 50  0001 C CNN
-	1    9325 10425
+P 3200 5250
+F 0 "R14" V 2925 5250 50  0000 C CNN
+F 1 "10K OHM" V 3000 5250 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 3130 5250 50  0001 C CNN
+F 3 "~" H 3200 5250 50  0001 C CNN
+	1    3200 5250
 	0    1    1    0   
 $EndComp
 Text Label 13500 7550 2    50   ~ 0
 NMI
-Text Label 9525 10325 0    50   ~ 0
+Text Label 3400 5150 0    50   ~ 0
 GND
 Text Label 11350 8625 0    50   ~ 0
 SPK_EN
@@ -2013,75 +1998,60 @@ Text Label 11875 9175 0    50   ~ 0
 Text Label 10875 9175 2    50   ~ 0
 GND
 $Comp
-L Device:R_Network08 R16
+L Device:R_Network04 R16
 U 1 1 662BB150
-P 8150 9475
-F 0 "R16" V 7550 9475 50  0000 C CNN
-F 1 "10K OHM" V 7650 9475 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 8080 9475 50  0001 C CNN
-F 3 "~" H 8150 9475 50  0001 C CNN
-	1    8150 9475
+P 14850 2325
+F 0 "R16" V 14450 2300 50  0000 C CNN
+F 1 "10K OHM" V 14525 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 14780 2325 50  0001 C CNN
+F 3 "~" H 14850 2325 50  0001 C CNN
+	1    14850 2325
 	0    1    1    0   
 $EndComp
-Text Label 8350 9075 0    50   ~ 0
+Text Label 15050 2125 0    50   ~ 0
 5+
-Text Label 6100 9125 2    50   ~ 0
+Text Label 475  5025 2    50   ~ 0
 MWR
-Text Label 6100 9225 2    50   ~ 0
+Text Label 475  5125 2    50   ~ 0
 MRD
-Text Label 6100 9325 2    50   ~ 0
+Text Label 475  5225 2    50   ~ 0
 IOWR
-Text Label 6600 9725 2    50   ~ 0
+Text Label 975  5625 2    50   ~ 0
 IORD
-Text Label 7950 9475 2    50   ~ 0
+Text Label 14650 2325 2    50   ~ 0
 REFRQ
-Text Label 7950 9575 2    50   ~ 0
+Text Label 14650 2425 2    50   ~ 0
 DACK1
-Text Label 7950 9675 2    50   ~ 0
+Text Label 14650 2125 2    50   ~ 0
 DACK2
-Text Label 7950 9775 2    50   ~ 0
+Text Label 14650 2225 2    50   ~ 0
 DACK3
 $Comp
-L Device:R_Network08 R17
+L Device:R_Network04 R17
 U 1 1 662C6187
-P 9050 9500
-F 0 "R17" V 8450 9500 50  0000 C CNN
-F 1 "10K OHM" V 8550 9500 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 8980 9500 50  0001 C CNN
-F 3 "~" H 9050 9500 50  0001 C CNN
-	1    9050 9500
+P 14825 1275
+F 0 "R17" V 14425 1250 50  0000 C CNN
+F 1 "10K OHM" V 14500 1250 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 14755 1275 50  0001 C CNN
+F 3 "~" H 14825 1275 50  0001 C CNN
+	1    14825 1275
 	0    1    1    0   
 $EndComp
-Text Label 9250 9100 0    50   ~ 0
+Text Label 15025 1075 0    50   ~ 0
 GND
-Text Label 8850 9200 2    50   ~ 0
+Text Label 14625 1175 2    50   ~ 0
 DRQ1
-Text Label 8850 9100 2    50   ~ 0
-DRQ0
-Text Label 8850 9400 2    50   ~ 0
+Text Label 14625 1075 2    50   ~ 0
+DRQ0_
+Text Label 14625 1375 2    50   ~ 0
 DRQ3
-Text Label 8850 9300 2    50   ~ 0
+Text Label 14625 1275 2    50   ~ 0
 DRQ2
-Text Label 8850 9500 2    50   ~ 0
+Text Label 3000 5150 2    50   ~ 0
 HOLD
-Text Label 8850 9600 2    50   ~ 0
-NMI
-$Comp
-L Device:R R15
-U 1 1 662CDB09
-P 3900 7550
-F 0 "R15" V 3693 7550 50  0000 C CNN
-F 1 "10K OHM" V 3784 7550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3830 7550 50  0001 C CNN
-F 3 "~" H 3900 7550 50  0001 C CNN
-	1    3900 7550
-	0    1    1    0   
-$EndComp
-Text Label 4050 7550 0    50   ~ 0
-GND
-Text Label 3750 7550 2    50   ~ 0
+Text Label 3000 5250 2    50   ~ 0
 DEN
-Text Label 6600 9625 2    50   ~ 0
+Text Label 975  5525 2    50   ~ 0
 PU1
 Text Label 6275 2800 2    50   ~ 0
 HOLDA
@@ -2385,38 +2355,36 @@ F 3 "https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf" H 16775 
 $EndComp
 Text Label 15875 825  2    50   ~ 0
 CLK
-Text Label 6500 9125 0    50   ~ 0
+Text Label 875  5025 0    50   ~ 0
 5+
 $Comp
 L Device:R_Network03 R1
 U 1 1 66428859
-P 6300 9225
-F 0 "R1" V 6025 9225 50  0000 C CNN
-F 1 "10K OHM" V 6100 9225 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 6230 9225 50  0001 C CNN
-F 3 "~" H 6300 9225 50  0001 C CNN
-	1    6300 9225
+P 675 5125
+F 0 "R1" V 400 5125 50  0000 C CNN
+F 1 "10K OHM" V 475 5125 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 605 5125 50  0001 C CNN
+F 3 "~" H 675 5125 50  0001 C CNN
+	1    675  5125
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Network03 R2
 U 1 1 664295CC
-P 6800 9625
-F 0 "R2" V 6525 9625 50  0000 C CNN
-F 1 "10K OHM" V 6600 9625 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 6730 9625 50  0001 C CNN
-F 3 "~" H 6800 9625 50  0001 C CNN
-	1    6800 9625
+P 1175 5525
+F 0 "R2" V 900 5525 50  0000 C CNN
+F 1 "10K OHM" V 975 5525 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 1105 5525 50  0001 C CNN
+F 3 "~" H 1175 5525 50  0001 C CNN
+	1    1175 5525
 	0    1    1    0   
 $EndComp
-Text Label 7000 9525 0    50   ~ 0
+Text Label 1375 5425 0    50   ~ 0
 5+
-Text Label 6600 9525 2    50   ~ 0
+Text Label 975  5425 2    50   ~ 0
 RESET
 Text Label 17800 6300 2    50   ~ 0
 KBD_CLK_INVERTED
 Text Label 12500 5575 2    50   ~ 0
 CH_CK_
-Text Label 7950 9075 2    50   ~ 0
-CH_CK
 $EndSCHEMATC
