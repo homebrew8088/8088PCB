@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2024-04-24T09:04:01-06:00"
+    "CreationDate":  "2024-05-03T12:08:33-06:00"
   },
   "GeneralSpecs":
   {
@@ -22,7 +22,7 @@
       "X": 177.850,
       "Y": 106.730
     },
-    "LayerNumber": 6,
+    "LayerNumber": 4,
     "BoardThickness":  1.600
   },
   "DesignRules":
@@ -60,18 +60,8 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "8088 PCB-In3_Cu.gbr",
-      "FileFunction":  "Copper,L4,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "8088 PCB-In4_Cu.gbr",
-      "FileFunction":  "Copper,L5,Inr",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "8088 PCB-B_Cu.gbr",
-      "FileFunction":  "Copper,L6,Bot",
+      "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -150,24 +140,6 @@
       "Type":  "Dielectric",
       "Material":  "FR4",
       "Notes":  "Layers L3/L4"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In3.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L4/L5"
-    },
-    {
-      "Type":  "Copper",
-      "Notes":  "Layer In4.Cu"
-    },
-    {
-      "Type":  "Dielectric",
-      "Material":  "FR4",
-      "Notes":  "Layers L5/L6"
     },
     {
       "Type":  "Copper",

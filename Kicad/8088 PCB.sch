@@ -1471,19 +1471,19 @@ $EndComp
 $Comp
 L 74xx:74LS04 U21
 U 7 1 662A70C3
-P 14275 8200
-F 0 "U21" V 13908 8200 50  0000 C CNN
-F 1 "74LS04" V 13999 8200 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 14275 8200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 14275 8200 50  0001 C CNN
-	7    14275 8200
+P 14250 8900
+F 0 "U21" V 13883 8900 50  0000 C CNN
+F 1 "74LS04" V 13974 8900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 14250 8900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 14250 8900 50  0001 C CNN
+	7    14250 8900
 	0    1    1    0   
 $EndComp
 Text Label 13950 6150 2    50   ~ 0
 KBD_CLK
-Text Label 14775 8200 0    50   ~ 0
+Text Label 14750 8900 0    50   ~ 0
 5+
-Text Label 13775 8200 2    50   ~ 0
+Text Label 13750 8900 2    50   ~ 0
 GND
 Text Label 14475 5825 0    50   ~ 0
 GND
@@ -1836,7 +1836,7 @@ Text Label 11100 6375 2    50   ~ 0
 IORD
 Text Label 11100 6000 2    50   ~ 0
 IOWR
-Text Label 12900 5375 0    50   ~ 0
+Text Label 12900 5275 0    50   ~ 0
 5+
 Text Label 11700 6000 0    50   ~ 0
 CS_61_WR
@@ -1850,24 +1850,24 @@ Text Label 9000 6800 2    50   ~ 0
 CS_61_WR_
 Text Label 7225 6850 2    50   ~ 0
 CS_61_RD
-Text Label 12500 5375 2    50   ~ 0
+Text Label 12500 5275 2    50   ~ 0
 CS_61_WR
 Text Label 11825 7100 0    50   ~ 0
 5+
 Text Label 10825 7100 2    50   ~ 0
 GND
 $Comp
-L Device:R_Network03 R12
+L Device:R_Network06 R12
 U 1 1 66279E14
-P 12700 5475
-F 0 "R12" V 12425 5475 50  0000 C CNN
-F 1 "10K OHM" V 12500 5475 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP4" V 12630 5475 50  0001 C CNN
-F 3 "~" H 12700 5475 50  0001 C CNN
-	1    12700 5475
+P 12700 5575
+F 0 "R12" V 12425 5575 50  0000 C CNN
+F 1 "10K OHM" V 12300 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 12630 5575 50  0001 C CNN
+F 3 "~" H 12700 5575 50  0001 C CNN
+	1    12700 5575
 	0    1    1    0   
 $EndComp
-Text Label 12500 5475 2    50   ~ 0
+Text Label 12500 5375 2    50   ~ 0
 CS_61_RD
 $Comp
 L 74xx:74LS126 U25
@@ -2053,8 +2053,6 @@ Text Label 3000 5250 2    50   ~ 0
 DEN
 Text Label 975  5525 2    50   ~ 0
 PU1
-Text Label 6275 2800 2    50   ~ 0
-HOLDA
 Text Label 6275 1900 2    50   ~ 0
 A9
 Text Label 6275 1800 2    50   ~ 0
@@ -2392,7 +2390,7 @@ L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 6634FD55
 P 12825 1800
 F 0 "J4" H 12875 2317 50  0000 C CNN
-F 1 "CS_7" H 12875 2226 50  0000 C CNN
+F 1 "CS7" H 12875 2226 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 12825 1800 50  0001 C CNN
 F 3 "~" H 12825 1800 50  0001 C CNN
 	1    12825 1800
@@ -2430,4 +2428,71 @@ Text Label 13125 2100 0    50   ~ 0
 GND
 Text Label 13125 2200 0    50   ~ 0
 GND
+$Comp
+L 74xx:74LS04 U21
+U 6 1 6634F801
+P 14275 8200
+F 0 "U21" H 14275 8517 50  0000 C CNN
+F 1 "74LS04" H 14275 8426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 14275 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 14275 8200 50  0001 C CNN
+	6    14275 8200
+	1    0    0    -1  
+$EndComp
+Text Label 13975 8200 2    50   ~ 0
+IOM
+Text Label 14575 8200 0    50   ~ 0
+IOM_
+Text Label 6275 2800 2    50   ~ 0
+IOM_
+$Comp
+L Device:R_Network04 R8
+U 1 1 66350675
+P 6600 3825
+F 0 "R8" V 6325 3825 50  0000 C CNN
+F 1 "10K OHM" V 6400 3825 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 6530 3825 50  0001 C CNN
+F 3 "~" H 6600 3825 50  0001 C CNN
+	1    6600 3825
+	0    1    1    0   
+$EndComp
+Text Label 6800 3625 0    50   ~ 0
+5+
+Text Label 7425 4250 2    50   ~ 0
+E0_CS
+Text Label 7425 4150 2    50   ~ 0
+80_CS
+Text Label 7425 4050 2    50   ~ 0
+61_CS
+Text Label 6400 3725 2    50   ~ 0
+40_CS
+Text Label 6400 3825 2    50   ~ 0
+20_CS
+Text Label 6400 3925 2    50   ~ 0
+00_CS
+Text Label 7425 3950 2    50   ~ 0
+60_CS
+$Comp
+L Device:R_Network04 R10
+U 1 1 66359A39
+P 7625 4150
+F 0 "R10" V 7350 4150 50  0000 C CNN
+F 1 "10K OHM" V 7425 4150 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 7555 4150 50  0001 C CNN
+F 3 "~" H 7625 4150 50  0001 C CNN
+	1    7625 4150
+	0    1    1    0   
+$EndComp
+Text Label 7825 3950 0    50   ~ 0
+5+
+Text Label 3000 5350 2    50   ~ 0
+NMI
+Text Label 12500 5475 2    50   ~ 0
+EOP
+Text Label 12500 5675 2    50   ~ 0
+AEN
+Text Label 6400 3625 2    50   ~ 0
+RDY1
+Text Label 12500 5775 2    50   ~ 0
+760_WR
 $EndSCHEMATC
