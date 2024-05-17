@@ -1857,14 +1857,14 @@ Text Label 11825 7100 0    50   ~ 0
 Text Label 10825 7100 2    50   ~ 0
 GND
 $Comp
-L Device:R_Network06 R12
+L Device:R_Network05 R12
 U 1 1 66279E14
-P 12700 5575
-F 0 "R12" V 12425 5575 50  0000 C CNN
-F 1 "10K OHM" V 12300 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP7" V 12630 5575 50  0001 C CNN
-F 3 "~" H 12700 5575 50  0001 C CNN
-	1    12700 5575
+P 12700 5475
+F 0 "R12" V 12425 5475 50  0000 C CNN
+F 1 "10K OHM" V 12300 5450 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 12630 5475 50  0001 C CNN
+F 3 "~" H 12700 5475 50  0001 C CNN
+	1    12700 5475
 	0    1    1    0   
 $EndComp
 Text Label 12500 5375 2    50   ~ 0
@@ -2027,12 +2027,12 @@ DACK2
 Text Label 14650 2225 2    50   ~ 0
 DACK3
 $Comp
-L Device:R_Network04 R17
+L Device:R_Network05 R17
 U 1 1 662C6187
 P 14825 1275
 F 0 "R17" V 14425 1250 50  0000 C CNN
 F 1 "10K OHM" V 14500 1250 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP5" V 14755 1275 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP6" V 14755 1275 50  0001 C CNN
 F 3 "~" H 14825 1275 50  0001 C CNN
 	1    14825 1275
 	0    1    1    0   
@@ -2049,7 +2049,7 @@ Text Label 14625 1275 2    50   ~ 0
 DRQ2
 Text Label 3000 5150 2    50   ~ 0
 HOLD
-Text Label 3000 5250 2    50   ~ 0
+Text Label 3450 6725 2    50   ~ 0
 DEN
 Text Label 975  5525 2    50   ~ 0
 PU1
@@ -2485,14 +2485,29 @@ F 3 "~" H 7625 4150 50  0001 C CNN
 $EndComp
 Text Label 7825 3950 0    50   ~ 0
 5+
-Text Label 3000 5350 2    50   ~ 0
+Text Label 3000 5250 2    50   ~ 0
 NMI
 Text Label 12500 5475 2    50   ~ 0
 EOP
-Text Label 12500 5675 2    50   ~ 0
+Text Label 14625 1475 2    50   ~ 0
 AEN
 Text Label 6400 3625 2    50   ~ 0
 RDY1
-Text Label 12500 5775 2    50   ~ 0
+Text Label 12500 5675 2    50   ~ 0
 760_WR
+Text Label 16875 850  2    50   ~ 0
+5+
+$Comp
+L Device:R R15
+U 1 1 664983E2
+P 3600 6725
+F 0 "R15" V 3393 6725 50  0000 C CNN
+F 1 "10K OHM" V 3484 6725 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 6725 50  0001 C CNN
+F 3 "~" H 3600 6725 50  0001 C CNN
+	1    3600 6725
+	0    1    1    0   
+$EndComp
+Text Label 3750 6725 0    50   ~ 0
+5+
 $EndSCHEMATC
