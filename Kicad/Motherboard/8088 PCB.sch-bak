@@ -2049,7 +2049,7 @@ Text Label 14625 1275 2    50   ~ 0
 DRQ2
 Text Label 3000 5150 2    50   ~ 0
 HOLD
-Text Label 3000 5250 2    50   ~ 0
+Text Label 3450 6725 2    50   ~ 0
 DEN
 Text Label 975  5525 2    50   ~ 0
 PU1
@@ -2485,7 +2485,7 @@ F 3 "~" H 7625 4150 50  0001 C CNN
 $EndComp
 Text Label 7825 3950 0    50   ~ 0
 5+
-Text Label 3000 5350 2    50   ~ 0
+Text Label 3000 5250 2    50   ~ 0
 NMI
 Text Label 12500 5475 2    50   ~ 0
 EOP
@@ -2496,5 +2496,18 @@ RDY1
 Text Label 12500 5675 2    50   ~ 0
 760_WR
 Text Label 16875 850  2    50   ~ 0
+5+
+$Comp
+L Device:R R15
+U 1 1 664983E2
+P 3600 6725
+F 0 "R15" V 3393 6725 50  0000 C CNN
+F 1 "10K OHM" V 3484 6725 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 6725 50  0001 C CNN
+F 3 "~" H 3600 6725 50  0001 C CNN
+	1    3600 6725
+	0    1    1    0   
+$EndComp
+Text Label 3750 6725 0    50   ~ 0
 5+
 $EndSCHEMATC

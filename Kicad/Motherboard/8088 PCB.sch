@@ -2510,4 +2510,17 @@ F 3 "~" H 3600 6725 50  0001 C CNN
 $EndComp
 Text Label 3750 6725 0    50   ~ 0
 5+
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 66552FD8
+P 12025 975
+F 0 "J5" H 12105 1017 50  0000 L CNN
+F 1 "IRQ 1" H 12105 926 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12025 975 50  0001 C CNN
+F 3 "~" H 12025 975 50  0001 C CNN
+	1    12025 975 
+	1    0    0    -1  
+$EndComp
+Text Label 11825 975  2    50   ~ 0
+IRQ1
 $EndSCHEMATC
