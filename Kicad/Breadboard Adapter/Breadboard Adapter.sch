@@ -119,12 +119,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x31 J4
 U 1 1 636509A5
-P 14850 4950
-F 0 "J4" H 14768 6667 50  0000 C CNN
-F 1 "Conn_01x31" H 14768 6576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x31_P2.54mm_Vertical" H 14850 4950 50  0001 C CNN
-F 3 "~" H 14850 4950 50  0001 C CNN
-	1    14850 4950
+P 17250 5000
+F 0 "J4" H 17168 6717 50  0000 C CNN
+F 1 "Conn_01x31" H 17168 6626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x31_P2.54mm_Vertical" H 17250 5000 50  0001 C CNN
+F 3 "~" H 17250 5000 50  0001 C CNN
+	1    17250 5000
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -262,67 +262,67 @@ Text Label 8400 4675 2    50   ~ 0
 IOWR
 Text Label 8400 4775 2    50   ~ 0
 IORD
-Text Label 15050 3550 0    50   ~ 0
+Text Label 17450 3600 0    50   ~ 0
 D7
-Text Label 15050 3650 0    50   ~ 0
+Text Label 17450 3700 0    50   ~ 0
 D6
-Text Label 15050 3750 0    50   ~ 0
+Text Label 17450 3800 0    50   ~ 0
 D5
-Text Label 15050 3850 0    50   ~ 0
+Text Label 17450 3900 0    50   ~ 0
 D4
-Text Label 15050 3950 0    50   ~ 0
+Text Label 17450 4000 0    50   ~ 0
 D3
-Text Label 15050 4050 0    50   ~ 0
+Text Label 17450 4100 0    50   ~ 0
 D2
-Text Label 15050 4150 0    50   ~ 0
+Text Label 17450 4200 0    50   ~ 0
 D1
-Text Label 15050 4250 0    50   ~ 0
+Text Label 17450 4300 0    50   ~ 0
 D0
-Text Label 15050 4350 0    50   ~ 0
+Text Label 17450 4400 0    50   ~ 0
 RDY1
-Text Label 15050 4450 0    50   ~ 0
+Text Label 17450 4500 0    50   ~ 0
 AEN
-Text Label 15050 4550 0    50   ~ 0
+Text Label 17450 4600 0    50   ~ 0
 A19
-Text Label 15050 4650 0    50   ~ 0
+Text Label 17450 4700 0    50   ~ 0
 A18
-Text Label 15050 4750 0    50   ~ 0
+Text Label 17450 4800 0    50   ~ 0
 A17
-Text Label 15050 4850 0    50   ~ 0
+Text Label 17450 4900 0    50   ~ 0
 A16
-Text Label 15050 4950 0    50   ~ 0
+Text Label 17450 5000 0    50   ~ 0
 A15
-Text Label 15050 5050 0    50   ~ 0
+Text Label 17450 5100 0    50   ~ 0
 A14
-Text Label 15050 5150 0    50   ~ 0
+Text Label 17450 5200 0    50   ~ 0
 A13
-Text Label 15050 5250 0    50   ~ 0
+Text Label 17450 5300 0    50   ~ 0
 A12
-Text Label 15050 5350 0    50   ~ 0
+Text Label 17450 5400 0    50   ~ 0
 A11
-Text Label 15050 5450 0    50   ~ 0
+Text Label 17450 5500 0    50   ~ 0
 A10
-Text Label 15050 5550 0    50   ~ 0
+Text Label 17450 5600 0    50   ~ 0
 A9
-Text Label 15050 5650 0    50   ~ 0
+Text Label 17450 5700 0    50   ~ 0
 A8
-Text Label 15050 5750 0    50   ~ 0
+Text Label 17450 5800 0    50   ~ 0
 A7
-Text Label 15050 5850 0    50   ~ 0
+Text Label 17450 5900 0    50   ~ 0
 A6
-Text Label 15050 5950 0    50   ~ 0
+Text Label 17450 6000 0    50   ~ 0
 A5
-Text Label 15050 6050 0    50   ~ 0
+Text Label 17450 6100 0    50   ~ 0
 A4
-Text Label 15050 6150 0    50   ~ 0
+Text Label 17450 6200 0    50   ~ 0
 A3
-Text Label 15050 6250 0    50   ~ 0
+Text Label 17450 6300 0    50   ~ 0
 A2
-Text Label 15050 6350 0    50   ~ 0
+Text Label 17450 6400 0    50   ~ 0
 A1
-Text Label 15050 3450 0    50   ~ 0
+Text Label 17450 3500 0    50   ~ 0
 CH_CK
-Text Label 15050 6450 0    50   ~ 0
+Text Label 17450 6500 0    50   ~ 0
 A0
 Text Label 12075 4300 2    50   ~ 0
 12+
@@ -458,5 +458,140 @@ D5
 Text Label 13475 3700 0    50   ~ 0
 D6
 Text Label 13475 3600 0    50   ~ 0
+D7
+Text Label 14700 4225 2    50   ~ 0
+12+
+Text Label 14700 4025 2    50   ~ 0
+12-
+Text Label 14700 3925 2    50   ~ 0
+DRQ2
+Text Label 14700 3825 2    50   ~ 0
+5-
+Text Label 14700 3725 2    50   ~ 0
+IRQ2
+Text Label 14700 3625 2    50   ~ 0
+5+
+Text Label 14700 3525 2    50   ~ 0
+RESOUT
+Text Label 14700 3425 2    50   ~ 0
+GND
+Text Label 14700 4825 2    50   ~ 0
+DACK3
+Text Label 14700 4925 2    50   ~ 0
+DRQ3
+Text Label 14700 5025 2    50   ~ 0
+DACK1
+Text Label 14700 5125 2    50   ~ 0
+DRQ1
+Text Label 14700 5225 2    50   ~ 0
+REFRQ
+Text Label 14700 5325 2    50   ~ 0
+CLK88
+Text Label 14700 5425 2    50   ~ 0
+IRQ7
+Text Label 14700 5525 2    50   ~ 0
+IRQ6
+Text Label 14700 5625 2    50   ~ 0
+IRQ5
+Text Label 14700 5725 2    50   ~ 0
+IRQ4
+Text Label 14700 5825 2    50   ~ 0
+IRQ3
+Text Label 14700 5925 2    50   ~ 0
+DACK2
+Text Label 14700 6025 2    50   ~ 0
+TC
+Text Label 14700 6125 2    50   ~ 0
+ALE
+Text Label 14700 6225 2    50   ~ 0
+5+
+Text Label 14700 4125 2    50   ~ 0
+NC
+Text Label 14700 6325 2    50   ~ 0
+OSC88
+Text Label 14700 6425 2    50   ~ 0
+GND
+Text Label 14700 4325 2    50   ~ 0
+GND
+Text Label 14700 4425 2    50   ~ 0
+MWR
+Text Label 14700 4525 2    50   ~ 0
+MRD
+Text Label 14700 4625 2    50   ~ 0
+IOWR
+Text Label 14700 4725 2    50   ~ 0
+IORD
+$Comp
+L Connector:Bus_ISA_8bit J5
+U 1 1 66563874
+P 15400 4925
+F 0 "J5" H 15400 6692 50  0001 C CNN
+F 1 "Bus_ISA_8bit" H 15400 6601 50  0001 C CNN
+F 2 "My:8-bit-ISA" H 15400 4925 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 15400 4925 50  0001 C CNN
+	1    15400 4925
+	1    0    0    -1  
+$EndComp
+Text Label 16100 6425 0    50   ~ 0
+A0
+Text Label 16100 3425 0    50   ~ 0
+CH_CK
+Text Label 16100 6325 0    50   ~ 0
+A1
+Text Label 16100 6225 0    50   ~ 0
+A2
+Text Label 16100 6125 0    50   ~ 0
+A3
+Text Label 16100 6025 0    50   ~ 0
+A4
+Text Label 16100 5925 0    50   ~ 0
+A5
+Text Label 16100 5825 0    50   ~ 0
+A6
+Text Label 16100 5725 0    50   ~ 0
+A7
+Text Label 16100 5625 0    50   ~ 0
+A8
+Text Label 16100 5525 0    50   ~ 0
+A9
+Text Label 16100 5425 0    50   ~ 0
+A10
+Text Label 16100 5325 0    50   ~ 0
+A11
+Text Label 16100 5225 0    50   ~ 0
+A12
+Text Label 16100 5125 0    50   ~ 0
+A13
+Text Label 16100 5025 0    50   ~ 0
+A14
+Text Label 16100 4925 0    50   ~ 0
+A15
+Text Label 16100 4825 0    50   ~ 0
+A16
+Text Label 16100 4725 0    50   ~ 0
+A17
+Text Label 16100 4625 0    50   ~ 0
+A18
+Text Label 16100 4525 0    50   ~ 0
+A19
+Text Label 16100 4425 0    50   ~ 0
+AEN
+Text Label 16100 4325 0    50   ~ 0
+RDY1
+Text Label 16100 4225 0    50   ~ 0
+D0
+Text Label 16100 4125 0    50   ~ 0
+D1
+Text Label 16100 4025 0    50   ~ 0
+D2
+Text Label 16100 3925 0    50   ~ 0
+D3
+Text Label 16100 3825 0    50   ~ 0
+D4
+Text Label 16100 3725 0    50   ~ 0
+D5
+Text Label 16100 3625 0    50   ~ 0
+D6
+Text Label 16100 3525 0    50   ~ 0
 D7
 $EndSCHEMATC
