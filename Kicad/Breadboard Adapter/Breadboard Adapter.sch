@@ -594,4 +594,128 @@ Text Label 16100 3625 0    50   ~ 0
 D6
 Text Label 16100 3525 0    50   ~ 0
 D7
+$Comp
+L Device:R R1
+U 1 1 679BF871
+P 5475 6800
+F 0 "R1" V 5268 6800 50  0000 C CNN
+F 1 "CC1" V 5359 6800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5405 6800 50  0001 C CNN
+F 3 "~" H 5475 6800 50  0001 C CNN
+	1    5475 6800
+	0    1    1    0   
+$EndComp
+Text Label 4675 5750 0    50   ~ 0
+R1
+Text Label 4675 5850 0    50   ~ 0
+R2
+Text Label 5625 6800 0    50   ~ 0
+GND
+$Comp
+L Device:R R2
+U 1 1 679C0E22
+P 5500 7150
+F 0 "R2" V 5293 7150 50  0000 C CNN
+F 1 "CC2" V 5384 7150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5430 7150 50  0001 C CNN
+F 3 "~" H 5500 7150 50  0001 C CNN
+	1    5500 7150
+	0    1    1    0   
+$EndComp
+Text Label 5650 7150 0    50   ~ 0
+GND
+Text Label 5325 6800 2    50   ~ 0
+R1
+Text Label 5350 7150 2    50   ~ 0
+R2
+$Comp
+L pspice:CAP C1
+U 1 1 679D483C
+P 12350 1375
+F 0 "C1" V 12035 1375 50  0000 C CNN
+F 1 "0.1uF" V 12126 1375 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12350 1375 50  0001 C CNN
+F 3 "~" H 12350 1375 50  0001 C CNN
+	1    12350 1375
+	0    1    1    0   
+$EndComp
+Text Label 12100 1375 2    50   ~ 0
+5+
+Text Label 12600 1375 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C2
+U 1 1 679D638C
+P 12350 1925
+F 0 "C2" V 12035 1925 50  0000 C CNN
+F 1 "0.1uF" V 12126 1925 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12350 1925 50  0001 C CNN
+F 3 "~" H 12350 1925 50  0001 C CNN
+	1    12350 1925
+	0    1    1    0   
+$EndComp
+Text Label 12100 1925 2    50   ~ 0
+5+
+Text Label 12600 1925 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C3
+U 1 1 679D674E
+P 12350 2450
+F 0 "C3" V 12035 2450 50  0000 C CNN
+F 1 "0.1uF" V 12126 2450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 12350 2450 50  0001 C CNN
+F 3 "~" H 12350 2450 50  0001 C CNN
+	1    12350 2450
+	0    1    1    0   
+$EndComp
+Text Label 12100 2450 2    50   ~ 0
+5+
+Text Label 12600 2450 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C4
+U 1 1 679D698C
+P 13400 1325
+F 0 "C4" V 13085 1325 50  0000 C CNN
+F 1 "0.1uF" V 13176 1325 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 13400 1325 50  0001 C CNN
+F 3 "~" H 13400 1325 50  0001 C CNN
+	1    13400 1325
+	0    1    1    0   
+$EndComp
+Text Label 13150 1325 2    50   ~ 0
+5+
+Text Label 13650 1325 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C5
+U 1 1 679E0495
+P 13425 1900
+F 0 "C5" V 13110 1900 50  0000 C CNN
+F 1 "0.1uF" V 13201 1900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 13425 1900 50  0001 C CNN
+F 3 "~" H 13425 1900 50  0001 C CNN
+	1    13425 1900
+	0    1    1    0   
+$EndComp
+Text Label 13175 1900 2    50   ~ 0
+5+
+Text Label 13675 1900 0    50   ~ 0
+GND
+$Comp
+L pspice:CAP C6
+U 1 1 679E0A2B
+P 13450 2425
+F 0 "C6" V 13135 2425 50  0000 C CNN
+F 1 "0.1uF" V 13226 2425 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 13450 2425 50  0001 C CNN
+F 3 "~" H 13450 2425 50  0001 C CNN
+	1    13450 2425
+	0    1    1    0   
+$EndComp
+Text Label 13200 2425 2    50   ~ 0
+5+
+Text Label 13700 2425 0    50   ~ 0
+GND
 $EndSCHEMATC
